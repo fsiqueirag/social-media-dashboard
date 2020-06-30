@@ -1,87 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Social Media Dashboard</title>
 </head>
+
 <body>
-
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <header>
+      <h1 class="title">Social Media Dashboard</h1>
+      <p class="subtitle">Total Followers: 23,004</p>
+      <div class="dark-mode">
+        <p>Dark Mode</p>
+        <div class="bar">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </header>
+    <div class="followers-container">
+      <div class="card-top" id="card1">
+        <div class="social">
+          <img src="" alt="">
+          <p>@nathanf</p>
+        </div>
+        <p>1987</p>
+        <p>F O L L O W E R S</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>12 Today</p>
+        </div>
+      </div>
+      <div class="card-top" id="card2">
+        <div class="social">
+          <img src="" alt="">
+          <p>@nathanf</p>
+        </div>
+        <p>1044</p>
+        <p>F O L L O W E R S</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>99 Today</p>
+        </div>
+      </div>
+      <div class="card-top" id="card3">
+        <div class="social">
+          <img src="" alt="">
+          <p>@realnathanf</p>
+        </div>
+        <p>11k</p>
+        <p>F O L L O W E R S</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>1099 Today</p>
+        </div>
+      </div>
+      <div class="card-top" id="card4">
+        <div class="social">
+          <img src="" alt="">
+          <p>Nathan F.</p>
+        </div>
+        <p>8239</p>
+        <p>F O L L O W E R S</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>144 Today</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="overview">Overview - Today</h2>
+    <div class="overview-container">
+      <div class="card-bot">
+        <p>Page Views</p>
+        <img src="" alt="">
+        <p>87</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>3%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Likes</p>
+        <img src="" alt="">
+        <p>52</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>2%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Likes</p>
+        <img src="" alt="">
+        <p>5462</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>2257%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Profile Views</p>
+        <img src="" alt="">
+        <p>52k</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>1375%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Retweets</p>
+        <img src="" alt="">
+        <p>117</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>303%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Likes</p>
+        <img src="" alt="">
+        <p>507</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>553%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Likes</p>
+        <img src="" alt="">
+        <p>107</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>19%</p>
+        </div>
+      </div>
+      <div class="card-bot">
+        <p>Total Views</p>
+        <img src="" alt="">
+        <p>1407</p>
+        <div class="gain">
+          <img src="" alt="">
+          <p>12%</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
